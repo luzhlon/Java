@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+        >
+    <ImageView
+            android:layout_width="32dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/book_alt_32x32"
+            android:layout_alignBottom="@+id/textItemL"
+            android:layout_marginLeft="10dp"/>
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/arrow_right_32x32" android:layout_alignBottom="@+id/imageView"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NoteName"
+            android:id="@+id/textItem"
+            android:textSize="24dp" android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp" android:layout_toEndOf="@+id/imageView"
+            android:layout_alignParentStart="false" android:layout_toStartOf="@id/imageView2"
+            android:textColor="@android:color/holo_blue_bright"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NoteDate"
+            android:id="@+id/textItemL" android:layout_below="@+id/textItem"
+            android:layout_marginLeft="10dp" android:layout_alignEnd="@+id/textItem"
+            android:layout_toStartOf="@id/imageView2" android:layout_toEndOf="@id/imageView"
+            android:textColor="@android:color/holo_purple"/>
+</RelativeLayout>

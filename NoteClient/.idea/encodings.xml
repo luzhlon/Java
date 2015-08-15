@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/src/com/luzhlon/Client/ConfigActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/luzhlon/Client/Global.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/luzhlon/Client/MainActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/luzhlon/Client/MessageHandler.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/luzhlon/Client/MyMsgHandler.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/luzhlon/Client/SignInActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/luzhlon/Client/SignUpActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/luzhlon/Client/SuggestActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/luzhlon/Client/WelcomeActivity.java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

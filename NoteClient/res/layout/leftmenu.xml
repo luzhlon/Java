@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg2"
+                android:paddingBottom="5dp">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="[ 未登录 ]"
+            android:id="@+id/textUser"
+            android:textSize="32dp" android:clickable="true" android:onClick="onUserClick"
+            android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:paddingBottom="10dp"
+            android:paddingTop="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:text="设置"
+            android:drawableLeft="@drawable/cog_32x32"
+            android:id="@+id/textSetting"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:textSize="20dp"
+            android:onClick="onSettingClick"
+            android:clickable="true"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"/>
+    <ListView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/listNote"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/textUser"
+                android:layout_above="@+id/textSetting"
+                android:choiceMode="singleChoice"
+                />
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="All"
+            android:id="@+id/textPullAll" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"
+            android:layout_below="@+id/listNote" android:textSize="20dp" android:gravity="center"
+            android:drawableLeft="@drawable/arrow_down_alt1_32x32" android:clickable="true"
+            android:onClick="onPullAllClick" android:enabled="false"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="All"
+            android:id="@+id/textPushAll" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true"
+            android:layout_below="@+id/listNote" android:layout_marginRight="10dp" android:gravity="center"
+            android:textSize="20dp" android:drawableLeft="@drawable/arrow_up_alt1_32x32" android:clickable="true"
+            android:onClick="onPushAllClick"/>
+</RelativeLayout>

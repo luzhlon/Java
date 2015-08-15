@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg3"
+    android:orientation="vertical" >
+    <TextView 
+         android:layout_width="fill_parent"
+   		 android:layout_height="40dp"
+   		 android:gravity="center"
+   		 android:text="用户建议"
+   		 android:background="#00B0DD"
+   		 android:textColor="#ffffff"
+   		 android:textSize="15sp"
+        />
+    <LinearLayout 
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        ></LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:layout_marginBottom="4dp"
+        android:background="#B0B0B0" />
+      <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+          <EditText 
+              android:paddingLeft="5dp"
+              android:paddingTop="2dp"
+        android:id="@+id/editSuggest"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="fill_parent"
+        android:gravity="center|left"
+        android:background="@drawable/backgrounds"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="2dp"
+        android:hint="我有话要说"
+        android:layout_marginBottom="5dp"
+        />
+	<Button 
+	    android:onClick="onSubmit"
+	    android:layout_marginBottom="5dp"
+	    android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+	    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="提  交"
+        android:background="@drawable/backgrounds"
+        android:textColor="#999493"
+        />
+      </LinearLayout>
+    
+</LinearLayout>
